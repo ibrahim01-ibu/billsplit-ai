@@ -1,0 +1,23 @@
+{
+  "name": "billsplit-ai",
+  "version": "1.0.0",
+  "description": "BillSplit AI - A monorepo for AI-powered bill splitting application",
+  "private": true,
+  "workspaces": [
+    "backend",
+    "mobile"
+  ],
+  "scripts": {
+    "backend": "npm run dev --workspace=backend",
+    "mobile": "npm run start --workspace=mobile",
+    "install-all": "npm install",
+    "clean": "npm run clean --workspaces --if-present"
+  },
+  "keywords": ["billsplit", "ai", "monorepo"],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  }
+}

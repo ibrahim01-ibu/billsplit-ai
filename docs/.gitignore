@@ -1,0 +1,20 @@
+# Build output
+_site/
+.docusaurus/
+.cache/
+build/
+
+# Dependencies
+node_modules/
+
+# Temporary files
+*.tmp
+*.temp
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
